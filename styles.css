@@ -1,0 +1,176 @@
+body{
+    background-color: #003049;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid white;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: white;
+}
+
+img {
+    background-color: white;
+    float: right
+    margin: 0.5em;
+    width: 150px;
+}
+
+.large1 {
+    background-color: #D62828;
+    padding: 1em;
+    text-align: justify;
+    margin: 0.5em;
+}
+
+.large2 {
+    background-color: #F77F00;
+    padding: 1em;
+    text-align: justify;
+    margin: 0.5em;
+}
+
+.large3 {
+    background-color: #FCBF49;
+    padding: 1em;
+    text-align: justify;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #EAE2B7;
+    padding-top: 1em;
+    padding-bottom: 1em ;
+    text-align: justify;
+    margin: 0.5em;
+}
+
+.phone {
+    text-align: center;
+}
+
+.media {
+    display: inline-flex;
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+}
+
+.media2 {
+    align-items: center;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-decoration: none;
+    margin: 0.2em;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: blue;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: linear-gradient(#F9CE34, #EE2A7B, #6228D7);
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #E71515;
+    color: white;
+  }
+
+  @media(min-width: 768px) {
+    .menu {
+        display: flex;
+    }
+
+    .media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+  @media(max-width:768px) {
+    .media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }    
+
+    body{
+        background-color: #023047;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+        border: 3px solid white;
+        padding: 0.5em;
+        margin: 0.5em;
+        color: white;
+    }
+    
+    img {
+        background-color: white;
+        float: right;
+        margin: 0.5em;
+        width: 150px;
+    }
+    
+    .large1 {
+        background-color: #8ECAE6;
+        padding: 1em;
+        text-align: justify;
+        margin: 0.5em;
+    }
+    
+    .large2 {
+        background-color: #219EBC;
+        padding: 1em;
+        text-align: justify;
+        margin: 0.5em;
+    }
+    
+    .large3 {
+        background-color: #FFB703;
+        padding: 1em;
+        text-align: justify;
+        margin: 0.5em;
+    }
+    
+    footer {
+        background-color: #FB8500;
+        padding: 0.5em;
+        text-align: justify;
+        margin: 0.5em;
+    }
+    
+  }
